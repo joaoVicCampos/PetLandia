@@ -1,0 +1,12 @@
+.header-container {
+    background-color: #3E342B;
+    padding: 33px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 90px;
+    box-sizing: border-box;
+}
