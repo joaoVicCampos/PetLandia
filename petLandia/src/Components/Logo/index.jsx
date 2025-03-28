@@ -1,5 +1,5 @@
 import './style.css'
-import logo from '../../assets/Pet.png'
+import logo from '../../assets/logo.png'
 
 const Logo = () => {
     return (

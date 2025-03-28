@@ -1,18 +1,8 @@
-.options {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin-right: 150px;
+.nav-link {
+    transition: color 0.1s ease, 0.1s ease;
+    color: lightgray;
 }
 
-.options a {
-    text-decoration: none;
-    color: #FFC874;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-.options a:hover {
-    color: #e7e7e6;
+.nav-link:hover {
+    color: #D4A053;
 }

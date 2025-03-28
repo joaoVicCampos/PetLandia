@@ -1,11 +1,9 @@
-.cart-icon a {
-    text-decoration: none;
-    color: #FFC874;
-    font-size: 25px;
-    transition: color 0.3s ease;
-    margin: 0 15px;
+.fas {
+    transition: color 0.1s ease, 0.1s ease;
 }
 
-.cart-icon a:hover {
-    color: #e7e7e6;
+.fas:hover {
+    color: #D4A053;
+    border-radius: 20px;
+    text-decoration: none;
 }
