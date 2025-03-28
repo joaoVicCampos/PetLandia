@@ -1,0 +1,9 @@
+.fas {
+    transition: color 0.1s ease, 0.1s ease;
+}
+
+.fas:hover {
+    color: #D4A053;
+    border-radius: 20px;
+    text-decoration: none;
+}
