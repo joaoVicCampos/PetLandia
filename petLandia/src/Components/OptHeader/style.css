@@ -6,3 +6,12 @@
 .nav-link:hover {
     color: #D4A053;
 }
+
+.nav-link.active,
+.nav-link.active-link {
+    color: #FFC874 !important;
+}
+
+.nav-link:focus {
+    outline: none;
+}

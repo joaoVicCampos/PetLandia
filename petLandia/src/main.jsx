@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router';
 import Header from './Components/Header/index.jsx'
 import Home from './Pages/Home/Home.jsx'
 import Products from './Pages/Products.jsx'
-import Adoption from './Pages/Adoption.jsx'
+import Adoption from './Pages/Adoption/Adoption.jsx'
 import Checkout from './Pages/Checkout.jsx'
 import Register from './Pages/Register.jsx'
 import Login from './Pages/Login.jsx';

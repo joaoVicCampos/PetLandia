@@ -1,5 +1,5 @@
 import './style.css'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const headerOptions = ['HOME', 'PRODUTOS', 'ADOTE', 'CATEGORIAS'];
 
@@ -9,12 +9,13 @@ const OptHeader = () => {
             <ul className="nav">
                 {headerOptions.map((option) => (
                     <li key={option} className="nav-item">
-                        <Link
+                        <NavLink
                             to={option.toLowerCase() === 'home' ? '/' : `/${option.toLowerCase()}`}
                             className="nav-link text"
+                            activeClassName="active-link"
                         >
                             {option}
-                        </Link>
+                        </NavLink>
                     </li>
                 ))}
             </ul>

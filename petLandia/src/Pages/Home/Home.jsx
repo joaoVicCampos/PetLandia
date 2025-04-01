@@ -11,7 +11,7 @@ const Home = () => {
                         Produtos de qualidade para cães e gatos, com entrega rápida e segura.
                     </p>
                     <Link to="/produtos?categoria=racoes" className="btn btn-primary">
-                        Ver Produtos 🛒
+                        Ver Produtos
                     </Link>
                 </div>
             </section>

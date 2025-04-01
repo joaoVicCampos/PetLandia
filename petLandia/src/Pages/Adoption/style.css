@@ -1,0 +1,53 @@
+.cat-card {
+    background-color: #3a332d;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cat-card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-adopt {
+    background-color: #3E342B;
+    color: #101010;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-adopt:hover {
+    background-color: #d49a53;
+    transform: scale(1.05);
+}
+
+.dog-card {
+    background-color: #3a332d;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-img-top-dog {
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
